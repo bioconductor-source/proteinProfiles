@@ -1,7 +1,7 @@
 Package: proteinProfiles
 Type: Package
 Title: Protein Profiling
-Version: 1.11.1
+Version: 1.12.0
 Imports: graphics, stats
 Depends: R (>= 2.15.2)
 Suggests: testthat
