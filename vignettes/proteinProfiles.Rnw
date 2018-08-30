@@ -73,8 +73,9 @@ same way as for any other bioconductor package (see also \href{http://bioconduct
 details):
 
 <<install_package, eval=FALSE>>=
-source("http://bioconductor.org/biocLite.R")
-biocLite("proteinProfiles")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("proteinProfiles")
 @
 
 You can get more information about the package in general and specific
