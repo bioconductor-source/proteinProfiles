@@ -1,7 +1,7 @@
 Package: proteinProfiles
 Type: Package
 Title: Protein Profiling
-Version: 1.27.0
+Version: 1.28.0
 Author: Julian Gehring
 Maintainer: Julian Gehring <jg-bioc@gmx.com>
 Imports: graphics, stats
